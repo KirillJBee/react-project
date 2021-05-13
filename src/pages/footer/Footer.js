@@ -1,18 +1,21 @@
 import React from "react";
-import Menu from "../../components/menu/Menu";
-import Secondmenu from "../../components/secondmenu/Secondmenu";
-import Contract from "../../components/contract/Сontract";
-import Social from "../../components/social/Social";
-import Email from "../../components/email/Email";
+import './Footer.css'
+import Menu from "./menu/Menu";
+import Secondmenu from "./secondmenu/Secondmenu";
+import Contract from "./contract/Сontract";
+import Social from "./social/Social";
+import Email from "./email/Email";
 
 function Footer() {
     return (
         <div className="Footer">
-            <Menu/>
-            <Secondmenu/>
-            <Contract/>
-            <Social/>
-            <Email/>
+            <div className="Top">
+                <div className="Email"><Email/></div>
+                <div className="Menu"><Menu/></div>
+                <div className="Secondmenu"><Secondmenu/></div>
+                <div className="Social"><Social/></div>
+            </div>
+            <div className="Contract"><Contract/></div>
         </div>
     );
 }

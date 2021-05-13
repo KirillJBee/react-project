@@ -1,8 +1,8 @@
 import React from "react";
-import instagram from "../../assets/images/pages/instagram.svg";
-import vk from "../../assets/images/pages/vk.svg";
-import facebook from "../../assets/images/pages/facebook.svg";
-import youtube from "../../assets/images/pages/youtube.svg";
+import instagram from "../../../assets/images/pages/instagram.svg";
+import vk from "../../../assets/images/pages/vk.svg";
+import facebook from "../../../assets/images/pages/facebook.svg";
+import youtube from "../../../assets/images/pages/youtube.svg";
 
 function Social() {
     return (
